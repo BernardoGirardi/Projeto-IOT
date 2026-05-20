@@ -26,7 +26,7 @@ MQTT_BROKER = "broker.hivemq.com"
 MQTT_PORT = 1883
 
 # prefixo UNICO do seu grupo (broker publico e compartilhado)
-MQTT_BASE = "ifsc/iot/grupoXYZ"
+MQTT_BASE = "unoesc/iot/grupoXYZ"
 TOPIC_TEMP = MQTT_BASE + "/temperatura"
 TOPIC_HUMID = MQTT_BASE + "/umidade"
 TOPIC_STATUS = MQTT_BASE + "/status"
